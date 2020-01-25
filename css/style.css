@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ------ Default Formatting ------ */
+
+html, body {
+	background: url("../img/symphony.png") repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	color: DimGray;
+	font-family: Montserrat, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+#main {
+	margin-top: 150px;
+}
+
+/* ------ Name & Title Styles ------ */
+
+h1 {
+	color: tomato;
+}
+
+h2 {
+	color: Salmon;
+}
+
+.name {
+	margin-bottom: 0;
+	border: 10px solid tomato;
+	padding: 30px;
+	display: inline;
+}
+
+.title {
+	margin-top: 40px;
+  padding: 30px;
+}
+
+/* ------ Contact Info Styles ------ */
+
+.phone {
+	color: DarkSeaGreen;
+}
+
+.email {
+	color: DarkSeaGreen;
+	text-decoration: none;
+}
+
+/* --------- Line Styles --------- */
+
+.line {
+	border: 1px solid grey;
+  margin: 30px auto;
+  width: 50%;
+}
+
+/* -------- Mission Styles -------- */
+
+.mission {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height: 30px;
+}
+
+
